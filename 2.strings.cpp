@@ -28,3 +28,16 @@ int main()
     cout<<cnt_int<<endl; //输出数字.(12345)
     return 0;
 }
+
+//将一个字符串按空格分割
+//需要包含sstream
+#include <sstream>
+
+	string inputbuffer;//为了读入文件的便于格式转化
+	
+	//不进行错误处理的代码，预设已知有且仅有这三个合法输入
+	istringstream strm(inputbuffer);
+	strm >> [string];
+	strm >> [int];
+	strm >> [float];
+	
